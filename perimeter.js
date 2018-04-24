@@ -1,3 +1,7 @@
+// Perimeters: https://www.codewars.com/kata/559a28007caad2ac4e000083
+
+// Given a golden rectangle constructed of n squares what is the total of all perimeters, assuming a unit of 1 being the edge of one of the seeding squares.
+
 function perimeter(n) {
   if (n <= 2) {
     return n * 4;
